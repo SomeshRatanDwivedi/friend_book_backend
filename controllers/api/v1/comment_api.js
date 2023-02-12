@@ -75,7 +75,6 @@ module.exports.getCommentOnPost=async(req, res)=>{
                             path:'user',
                             select:'_id name'
                         }),
-                      
                        });
 
          console.log(post.comments)

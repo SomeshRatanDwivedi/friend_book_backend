@@ -1,5 +1,6 @@
 const User=require('./user');
 const Post=require('./post');
+const Like=require('./like')
 const mongoose=require('mongoose');
 
 const commentSchema=mongoose.Schema({
